@@ -74,6 +74,7 @@ Si GitHub no está disponible, Vercel guarda el código de cada despliegue: se p
 ## Google Ads (en curso)
 
 - Plan: campaña de Búsqueda "Cursillo prematrimonial Medellín" que lleva a `/cursillo-prematrimonial-medellin`. Ubicación: Medellín y Valle de Aburrá. Idioma: español. Concordancia de frase y exacta. Palabras negativas: gratis pdf, trabajo, empleo, Bogotá, Cali, virtual (por definir). Se crea PAUSADA para que el dueño la revise antes de activarla.
+- Detalle completo (palabras clave, anuncios, negativas, configuración): `GOOGLE-ADS.md`.
 - Herramienta: Supermetrics (`ds_id` AW) puede leer volúmenes y crear y editar campañas. Falta que el dueño inicie sesión con su cuenta de Google Ads en Supermetrics.
 - Seguimiento: falta el ID de la etiqueta de Google (AW-…) y la etiqueta de conversión para `registro_cursillo`, más GA4 y el Pixel de Meta si se usan.
 
