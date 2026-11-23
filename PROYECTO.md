@@ -29,8 +29,10 @@ Si eres Claude y te piden cambiar algo de esta web: lee esto primero, edita `ind
 ## Archivos
 
 - `index.html` — toda la web en UN solo archivo (HTML + `<style>` + `<script>`). Se dejó así a propósito: durante la propagación DNS, archivos separados (`app.js`) llegaban a veces desde Wix con 404 y la pantalla de entrada se quedaba trabada.
+- `cursillo-prematrimonial-medellin.html` — página de aterrizaje para Google Ads y SEO (`/cursillo-prematrimonial-medellin`). Formulario visible apenas abre, 3 pasos, cheques regalo, documentos para casarse por la Iglesia, preguntas frecuentes (con datos estructurados FAQPage) y cierre en coral. También es un solo archivo, con su CSS y JS adentro. Tiene `track()` listo: envía eventos a dataLayer, gtag y fbq cuando se instalen (`registro_cursillo`, `whatsapp_topbar`, `whatsapp_flotante`).
+- `sitemap.xml` — inicio y página del cursillo.
 - `vercel.json` — `cleanUrls` y cabeceras de seguridad.
-- `robots.txt`
+- `robots.txt` — incluye la ruta del sitemap.
 - Sitio 100 % estático, sin build. Framework en Vercel: ninguno.
 
 ## Cómo publicar un cambio
@@ -39,7 +41,6 @@ Si eres Claude y te piden cambiar algo de esta web: lee esto primero, edita `ind
 2. Probar local: `python3 -m http.server 8765` y revisar en escritorio (1440×900) y celular (390×844).
 3. Publicar en producción con la herramienta de Vercel `create_deployment` (teamId `team_cd3tn2uTbaa9HWkoQhPOwiu3`, `project: "tumatrimonio"`, `target: "production"`), enviando los archivos. `vercel.json` y `robots.txt` pueden ir por sha si no cambiaron:
    - vercel.json → sha `692b546ecdfe87d68cc2cfd01ddd481dd4a79327`, size 231
-   - robots.txt → sha `65990256b6ebe0149d8edfcae37274b6af3e42ae`, size 23
 4. Verificar: `curl https://tumatrimonio.vercel.app/` y comparar sha1 con el archivo local.
 5. Hacer commit y push a GitHub, y anotar el cambio en la bitácora de abajo.
 
@@ -70,6 +71,12 @@ Si GitHub no está disponible, Vercel guarda el código de cada despliegue: se p
 12. Noviademar · Coveñas: foto de playa, logo, botón para cotizar por WhatsApp, galería y franja azul cielo "Directorio de empresas Coveñas".
 13. Pie de página taupe y botón flotante de WhatsApp.
 
+## Google Ads (en curso)
+
+- Plan: campaña de Búsqueda "Cursillo prematrimonial Medellín" que lleva a `/cursillo-prematrimonial-medellin`. Ubicación: Medellín y Valle de Aburrá. Idioma: español. Concordancia de frase y exacta. Palabras negativas: gratis pdf, trabajo, empleo, Bogotá, Cali, virtual (por definir). Se crea PAUSADA para que el dueño la revise antes de activarla.
+- Herramienta: Supermetrics (`ds_id` AW) puede leer volúmenes y crear y editar campañas. Falta que el dueño inicie sesión con su cuenta de Google Ads en Supermetrics.
+- Seguimiento: falta el ID de la etiqueta de Google (AW-…) y la etiqueta de conversión para `registro_cursillo`, más GA4 y el Pixel de Meta si se usan.
+
 ## Pendientes
 
 - Pasar las fotos de Wix a Vercel antes de cancelar Wix premium.
@@ -85,3 +92,4 @@ Si GitHub no está disponible, Vercel guarda el código de cada despliegue: se p
 - **2026-11-23:** se añadió la novia original arriba; el dueño pidió que todo quedara visible sin bajar. La portada pasó a ser la novia pequeña a la izquierda con las fotos rotando en el fondo y el contenido sobre el velo a la derecha. Se quitó la "ventanita" en arco.
 - **2026-11-23:** dominio conectado (DNS en GoDaddy hacia Vercel). CSS y JS se volvieron a meter dentro de `index.html`, con respaldo para la pantalla de entrada.
 - **2026-11-23:** proyecto guardado en GitHub (repo privado `tumatrimonio.co.com`) y respaldo en Google Drive. Se agregaron `PROYECTO.md` y `CLAUDE.md`.
+- **2026-11-23:** nueva página `/cursillo-prematrimonial-medellin` para pautar en Google Ads, más `sitemap.xml` y `robots.txt` con sitemap. Se inició la preparación de Google Ads.
