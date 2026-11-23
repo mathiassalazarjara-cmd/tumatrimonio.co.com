@@ -16,7 +16,9 @@ Si eres Claude y te piden cambiar algo de esta web: lee esto primero, edita `ind
 | Dominio | `www.tumatrimonio.com.co` (registrado en GoDaddy; DNS en GoDaddy) |
 | Hosting | Vercel · equipo **NetVision Agency** (`team_cd3tn2uTbaa9HWkoQhPOwiu3`) · proyecto **tumatrimonio** (`prj_fbfHV3MAx8C8tshmd8cxXwTHHcAb`) |
 | Respaldo URL | https://tumatrimonio.vercel.app |
-| Código | este repositorio (rama `main`) |
+| Copia en Drive | Carpeta "Web tu Matrimonio (respaldo)" en el Google Drive del dueño (zip + este documento) |
+| Chat original | Sesión de Claude Code "Web tu Matrimonio (tumatrimonio.com.co)" |
+| Código | GitHub privado: https://github.com/mathiassalazarjara-cmd/tumatrimonio.co.com (rama `main`) |
 | Web anterior | Wix premium (sigue activa; las fotos aún se cargan desde `static.wixstatic.com`) |
 
 **DNS en GoDaddy (no tocar MX/TXT):**
@@ -82,3 +84,4 @@ Si GitHub no está disponible, Vercel guarda el código de cada despliegue: se p
 - **2026-11-23:** rediseño con la identidad original: coral, taupe, logo y fotos propias de Wix, y pantalla de entrada animada.
 - **2026-11-23:** se añadió la novia original arriba; el dueño pidió que todo quedara visible sin bajar. La portada pasó a ser la novia pequeña a la izquierda con las fotos rotando en el fondo y el contenido sobre el velo a la derecha. Se quitó la "ventanita" en arco.
 - **2026-11-23:** dominio conectado (DNS en GoDaddy hacia Vercel). CSS y JS se volvieron a meter dentro de `index.html`, con respaldo para la pantalla de entrada.
+- **2026-11-23:** proyecto guardado en GitHub (repo privado `tumatrimonio.co.com`) y respaldo en Google Drive. Se agregaron `PROYECTO.md` y `CLAUDE.md`.
