@@ -24,7 +24,7 @@
 
   // Slideshow del hero
   var imgs=document.querySelectorAll('#slides img'),dots=document.querySelectorAll('#dots i'),cur=0;
-  setInterval(function(){imgs[cur].classList.remove('on');dots[cur].classList.remove('on');cur=(cur+1)%imgs.length;imgs[cur].classList.add('on');dots[cur].classList.add('on')},5000);
+  setTimeout(function(){setInterval(function(){imgs[cur].classList.remove('on');dots[cur].classList.remove('on');cur=(cur+1)%imgs.length;imgs[cur].classList.add('on');dots[cur].classList.add('on')},5500)},2600);
 
   // Nav
   var nav=$('#nav');

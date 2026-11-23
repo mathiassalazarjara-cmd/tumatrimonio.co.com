@@ -21,7 +21,7 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Organization","name":"tu Matrimonio","url":"https://www.tumatrimonio.com.co","email":"tumatrimonio@gmail.com","telephone":"+57 300 442 7428","areaServed":"Medellín, Colombia","slogan":"Una boda se prepara para un día, pero tu matrimonio se construye para toda la vida."}
 </script>
-<link rel="stylesheet" href="/styles.css?v=3">
+<link rel="stylesheet" href="/styles.css?v=5">
 </head>
 <body class="lock">
 
@@ -92,16 +92,18 @@
   <a href="#registro" class="btn btn-coral">Regístrate y recibe tus beneficios</a>
 </div>
 
-<!-- NOVIA DE PORTADA (igual a la web original) -->
-<section class="intro" aria-label="tu Matrimonio">
-  <img src="https://static.wixstatic.com/media/c27dd5_20012f2ec35f4d6ebaa9aca0aac0def8~mv2.jpg/v1/fill/w_2000,h_1572,al_c,q_85,enc_auto/novia.jpg" alt="Novia de tu Matrimonio" fetchpriority="high">
-</section>
-
 <!-- HERO -->
 <section class="hero">
+  <div class="hero-bg" id="slides" aria-hidden="true">
+    <img class="on" src="https://static.wixstatic.com/media/c27dd5_20012f2ec35f4d6ebaa9aca0aac0def8~mv2.jpg/v1/fill/w_2000,h_1572,al_c,q_85,enc_auto/novia.jpg" alt="" fetchpriority="high" style="object-position:30% 32%">
+    <img src="https://static.wixstatic.com/media/c27dd5_91c6ed7fa4eb4a0d81f92a8209489408~mv2.jpg/v1/fill/w_2000,h_1125,al_c,q_85,enc_auto/novia2.jpg" alt="" loading="lazy" style="object-position:20% 40%">
+    <img src="https://static.wixstatic.com/media/c27dd5_80846387a4ee4964ad18e2ad6497f677~mv2.jpg/v1/fill/w_2000,h_1125,al_c,q_85,enc_auto/novia3.jpg" alt="" loading="lazy" style="object-position:25% 35%">
+    <img src="https://static.wixstatic.com/media/c27dd5_1e149a934946411fa7aafe89821bd1f8~mv2.png/v1/fill/w_2000,h_1300,al_c,q_85,enc_auto/novia4.jpg" alt="" loading="lazy" style="object-position:30% 30%">
+  </div>
+  <div class="dots" id="dots"><i class="on"></i><i></i><i></i><i></i></div>
   <div class="hearts" id="hearts" aria-hidden="true"></div>
   <div class="wrap">
-    <div>
+    <div class="h-copy">
       <div class="eyebrow h-in"><i></i> Programación cursillos prematrimoniales · Medellín</div>
       <h1>
         <span class="l1"><span class="w"><span>Una boda</span></span> <span class="w"><span>se prepara</span></span> <span class="w"><span>para un día,</span></span></span>
@@ -131,19 +133,6 @@
         </label>
         <button class="btn btn-coral" type="submit">Buscar</button>
       </form>
-    </div>
-
-    <div class="visual">
-      <svg class="v-heart" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 86C22 64 8 46 16 27 24 10 44 12 50 30 56 12 76 10 84 27 92 46 78 64 50 86Z"/></svg>
-      <div class="arch" id="slides">
-        <img class="on" src="https://static.wixstatic.com/media/c27dd5_747c2b30850c45fc8952a4f86298d3d6~mv2.png/v1/fill/w_900,h_1125,al_t,q_85,enc_auto/novia1.jpg" alt="Novia con vestido blanco">
-        <img src="https://static.wixstatic.com/media/c27dd5_1e149a934946411fa7aafe89821bd1f8~mv2.png/v1/fill/w_900,h_1125,al_c,q_85,enc_auto/novia2.jpg" alt="Novia elegante" loading="lazy">
-        <img src="https://static.wixstatic.com/media/c27dd5_91c6ed7fa4eb4a0d81f92a8209489408~mv2.jpg/v1/fill/w_900,h_1125,al_c,q_85,enc_auto/novia3.jpg" alt="Retrato de novia con velo" loading="lazy">
-        <img src="https://static.wixstatic.com/media/c27dd5_80846387a4ee4964ad18e2ad6497f677~mv2.jpg/v1/fill/w_900,h_1125,al_c,q_85,enc_auto/novia4.jpg" alt="Retrato de novia" loading="lazy">
-        <div class="dots" id="dots"><i class="on"></i><i></i><i></i><i></i></div>
-      </div>
-      <div class="chip c1"><span class="ic"><svg class="i"><use href="#i-rings"/></svg></span><div><b>Cursillo prematrimonial</b><small>Arquidiócesis de Medellín</small></div></div>
-      <div class="chip c2"><span class="ic"><svg class="i"><use href="#i-gift"/></svg></span><div><b>+$350.000</b><small>en cheques regalo</small></div></div>
     </div>
   </div>
 </section>
@@ -424,6 +413,6 @@
 
 <a class="wa" href="https://wa.me/573004427428?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20el%20cursillo%20prematrimonial" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp"><svg class="i" style="width:30px;height:30px"><use href="#i-wa"/></svg></a>
 
-<script src="/app.js?v=3"></script>
+<script src="/app.js?v=5"></script>
 </body>
 </html>
