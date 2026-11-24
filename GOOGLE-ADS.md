@@ -1,6 +1,6 @@
 # Google Ads · tu Matrimonio
 
-Cuenta: la crea el dueño (correo paulajaramillod@gmail.com). Moneda COP. Medellín y Valle de Aburrá.
+Cuenta: la de **Paula Andrea Jaramillo** (paulajaramillod@gmail.com), no la de Matías Salazar. Moneda COP. Medellín y Valle de Aburrá.
 Plan: campaña de Búsqueda, creada en pausa para revisión. La conexión para administrarla desde Claude es Supermetrics (ds_id AW).
 
 ## Descripción de la empresa (asistente de Google Ads)
@@ -11,18 +11,20 @@ Productos o servicios: Cursillo prematrimonial · Cheques regalo para novios · 
 
 ## Grupos de anuncios y palabras clave
 
+**Decisión del dueño (2026-11-24): todos los anuncios llegan a la página principal https://www.tumatrimonio.com.co/, no a la página del cursillo.**
+
 Concordancia: [exacta] y "frase". Evitar concordancia amplia al inicio.
 
-### 1. Cursillo prematrimonial → https://www.tumatrimonio.com.co/cursillo-prematrimonial-medellin
+### 1. Cursillo prematrimonial → https://www.tumatrimonio.com.co/
 "cursillo prematrimonial", [cursillo prematrimonial medellín], "cursillo prematrimonial medellin", "curso prematrimonial", "curso prematrimonial medellín", "fechas cursillo prematrimonial", "inscripción cursillo prematrimonial", "cursillo prematrimonial arquidiócesis", "preparación matrimonial", "requisitos para casarse por la iglesia", "documentos para casarse por la iglesia", "parroquia medellín matrimonio", "parroquias medellín", "casarse por la iglesia medellín", "matrimonio católico medellín"
 
-### 2. Proveedores de bodas → https://www.tumatrimonio.com.co/#proveedores
+### 2. Proveedores de bodas → https://www.tumatrimonio.com.co/
 "decoración bodas medellín", "decoración de bodas", "salones de recepción medellín", "lugares para bodas medellín", "fincas para bodas medellín", "vestido de novia medellín", "vestidos de novia", "alquiler vestido de novia medellín", "traje de novio medellín", "bizcocho de bodas medellín", "maquillaje de novia medellín", "fotógrafo de bodas medellín", "proveedores de bodas medellín", "organizar boda medellín", "wedding planner medellín", "novias medellín"
 
 ### 3. Marca → https://www.tumatrimonio.com.co/
 [tu matrimonio], "tumatrimonio", "tu matrimonio medellín", "club de novias medellín"
 
-### 4. Bodas en la playa (opcional, campaña aparte) → https://www.tumatrimonio.com.co/#covenas
+### 4. Bodas en la playa (opcional, campaña aparte) → https://www.tumatrimonio.com.co/
 "boda en la playa", "boda en coveñas", "matrimonio en la playa colombia", "luna de miel coveñas", "renovación de votos playa"
 
 "bodas" y "matrimonio" solas son demasiado amplias y caras (traen búsquedas de noticias, frases, definiciones y matrimonio civil). Se usan solo combinadas con Medellín.
@@ -42,7 +44,7 @@ Descripciones (máx. 90):
 - Fechas del cursillo, requisitos para casarte por la Iglesia y proveedores selectos.
 - Club de Novias tu Matrimonio: obsequios, descuentos e invitaciones exclusivas.
 
-Ruta visible: tumatrimonio.com.co/cursillo/medellin
+Ruta visible: tumatrimonio.com.co/bodas/medellin
 
 ## Recursos
 

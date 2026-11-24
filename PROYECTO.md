@@ -73,7 +73,7 @@ Si GitHub no está disponible, Vercel guarda el código de cada despliegue: se p
 
 ## Google Ads (en curso)
 
-- Plan: campaña de Búsqueda "Cursillo prematrimonial Medellín" que lleva a `/cursillo-prematrimonial-medellin`. Ubicación: Medellín y Valle de Aburrá. Idioma: español. Concordancia de frase y exacta. Palabras negativas: gratis pdf, trabajo, empleo, Bogotá, Cali, virtual (por definir). Se crea PAUSADA para que el dueño la revise antes de activarla.
+- Plan: campaña de Búsqueda desde la cuenta de Google Ads de Paula Andrea Jaramillo. Los anuncios llegan a la página principal (decisión del dueño). Ubicación: Medellín y Valle de Aburrá. Idioma: español. Concordancia de frase y exacta. Palabras negativas: gratis pdf, trabajo, empleo, Bogotá, Cali, virtual (por definir). Se crea PAUSADA para que el dueño la revise antes de activarla.
 - Detalle completo (palabras clave, anuncios, negativas, configuración): `GOOGLE-ADS.md`.
 - Herramienta: Supermetrics (`ds_id` AW) puede leer volúmenes y crear y editar campañas. Falta que el dueño inicie sesión con su cuenta de Google Ads en Supermetrics.
 - Seguimiento: falta el ID de la etiqueta de Google (AW-…) y la etiqueta de conversión para `registro_cursillo`, más GA4 y el Pixel de Meta si se usan.
@@ -94,3 +94,4 @@ Si GitHub no está disponible, Vercel guarda el código de cada despliegue: se p
 - **2026-11-23:** dominio conectado (DNS en GoDaddy hacia Vercel). CSS y JS se volvieron a meter dentro de `index.html`, con respaldo para la pantalla de entrada.
 - **2026-11-23:** proyecto guardado en GitHub (repo privado `tumatrimonio.co.com`) y respaldo en Google Drive. Se agregaron `PROYECTO.md` y `CLAUDE.md`.
 - **2026-11-23:** nueva página `/cursillo-prematrimonial-medellin` para pautar en Google Ads, más `sitemap.xml` y `robots.txt` con sitemap. Se inició la preparación de Google Ads.
+- **2026-11-24:** Google Ads se maneja con la cuenta de Paula Andrea Jaramillo y todos los anuncios llegan a la página principal, no a la página del cursillo.
